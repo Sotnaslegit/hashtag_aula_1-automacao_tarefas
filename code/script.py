@@ -50,5 +50,5 @@ for line in table.index:
     pyautogui.write(preco_unitario)
     pyautogui.press("tab")
     if obs != "NaN":
-        pyautogui.write(custo)
+        pyautogui.write(obs)
         pyautogui.press("enter")
